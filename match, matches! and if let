@@ -1,5 +1,5 @@
 1.
-```ruby
+
 enum Direction {
     East,
     West,
@@ -17,10 +17,9 @@ fn main() {
         _ => println!("West"),
     };
 }
-```
 
 2.
-```rust
+
 fn main() {
     let boolean = true;
 
@@ -35,11 +34,9 @@ fn main() {
 
     assert_eq!(binary, 1);
 }
-```
 
 3.
 
-```rust
 enum Message {
     Quit,
     Move { x: i32, y: i32 },
@@ -72,10 +69,8 @@ fn show_message(msg: Message) {
         _ => println!("no data in these variants")
     }
 }
-```
-4.
 
-```rust
+4.
 fn main() {
     let alphabets = ['a', 'E', 'Z', '0', 'x', '9' , 'Y'];
 
@@ -86,9 +81,8 @@ fn main() {
 
     println!("Success!");
 } 
-```
+
 5.
-```rust
 enum MyEnum {
     Foo,
     Bar
@@ -109,10 +103,8 @@ fn main() {
 
     println!("Success!");
 }
-```
-6.
 
-```rust
+6.
 fn main() {
     let o = Some(7);
 
@@ -131,9 +123,9 @@ fn main() {
         println!("Success!");
     }
 }
-```
+
 7.
-```rust
+
 // Fill in the blank
 enum Foo {
     Bar(u8)
@@ -148,9 +140,7 @@ fn main() {
         println!("Success!");
     }
 }
-```
 8.
-```rust
 enum Foo {
     Bar,
     Baz,
@@ -175,9 +165,8 @@ fn main() {
         others =>  println!("match others"),
     };
 }
-```
 9
-```rust
+
 // Fix the errors in-place
 fn main() {
     let age = Some(30);
@@ -191,4 +180,3 @@ fn main() {
         _ => ()
     }
  }
- ```
